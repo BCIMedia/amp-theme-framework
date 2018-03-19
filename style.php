@@ -1,17 +1,17 @@
-/**** 
+/****
 * AMP Framework Reset
 *****/
-    body{ font-family: sans-serif; font-size: 16px; line-height:1.4; }
+    body{ font-family: 'minion-pro', serif; font-size: 1rem; line-height:1.25; }
     ol, ul{ list-style-position: inside }
     p, ol, ul, figure{ margin: 0 0 1em; padding: 0; }
-    a, a:active, a:visited{ color:#ed1c24; text-decoration: none }
-    a:hover, a:active, a:focus{}
+    a, a:active, a:visited{ color:#7e8aa2; text-decoration: none }
+    a:hover, a:active, a:focus{color: #bdd63b;}
     pre{ white-space: pre-wrap;}
     .left{float:left}
     .right{float:right}
     .hidden{ display:none }
     .clearfix{ clear:both }
-    blockquote{ background: #f1f1f1; margin: 10px 0 20px 0; padding: 15px;}
+    blockquote{ background: #e2e2e2; margin: 10px 0 20px 0; padding: 15px;}
     blockquote p:last-child {margin-bottom: 0;}
     .amp-wp-unknown-size img {object-fit: contain;}
     .amp-wp-enforced-sizes{ max-width: 100% }
@@ -34,8 +34,8 @@
         padding: 0;
     }
     .wp-caption-text {
-        font-size: 12px;
-        line-height: 1.5em;
+        font-size: .75rem;
+        line-height: 1.4;
         margin: 0;
         padding: .66em 10px .75em;
         text-align: center;
@@ -52,7 +52,19 @@
         object-fit: contain;
     }
 
+/****
+* font-size
+****/
 
+html {
+  font-family: ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "futura", "valera", Futura, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: ;
+}
 /****
 * Container
 *****/
@@ -80,7 +92,7 @@
         height: 2px;
         margin-bottom: 5px;
         width: 22px;
-        background: #000;
+        background: #151f30;
     }
     .amp-sidebar-toggle span:nth-child(2){
         top: 7px;
@@ -91,7 +103,7 @@
 
     /* AMP Sidebar close button */
     .amp-sidebar-close{
-        background: #333;
+        background: #bdd63b;
         display: inline-block;
         padding: 5px 10px;
         font-size: 12px;
@@ -110,7 +122,7 @@
     }
     .toggle-navigation ul li{
         font-size: 13px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+        border-bottom: 1px solid #bdd63b;
         padding: 11px 0px;
         width: 25%;
         float: left;
@@ -121,16 +133,16 @@
         display: none
     }
     .toggle-navigation ul li a{
-        color: #eee;
+        color: #bdd63b;
         padding: 15px;
     }
     .toggle-navigation{
         display: none;
-        background: #444;
+        background: #7e8aa2;
     }
 
 
-/**** 
+/****
 * Header
 *****/
 .amp-logo {
@@ -144,7 +156,7 @@
         margin: 16px 5px 0px 5px;
     }
     .amp-phone, .amp-social, .amp-sidebar-button{
-        display:inline-flex 
+        display:inline-flex
     }
     .amp-phone{
         top: 4px;
@@ -157,7 +169,7 @@
     }
 
 
-/**** 
+/****
 * Loop
 *****/
     .loop-post{
@@ -212,7 +224,7 @@
     }
 
 
-/**** 
+/****
 * Comments
 *****/
 	.comments_list ul{
@@ -238,9 +250,9 @@
 	}
 	.comments_list li li{
 	    margin: 20px 20px 10px 20px;
-	    background: #f7f7f7;
+	    background: #e2e2e2;
 	    box-shadow: none;
-	    border: 1px solid #eee;
+	    border: 1px solid #7e8aa2;
 	}
 	.comments_list li li li{
 	    margin:20px 20px 10px 20px
@@ -248,7 +260,7 @@
 	.comment-author{ float:left }
 
 
-/**** 
+/****
 * Footer
 *****/
     .footer{
@@ -262,3 +274,10 @@
 * RTL Styles
 *****/
     <?php  if( is_rtl() ) {?> <?php } ?>
+
+/****
+* Custom CSS
+*****/
+    <?php echo $redux_builder_amp['css_editor']; ?>
+
+    <?php } ?>
