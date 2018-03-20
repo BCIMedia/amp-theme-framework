@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
         padding: 0;
         display: inline-block;
-        width: 100%
+        width: 100%;
     }
     .toggle-navigation ul li{
         font-size: 13px;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 25%;
         float: left;
         text-align: center;
-        margin-top: 6px
+        margin-top: 6px;
     }
     .toggle-navigation ul ul{
         display: none
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
         margin: 16px 5px 0px 5px;
     }
     .amp-phone, .amp-social, .amp-sidebar-button{
-        display:inline-flex
+        display:inline-flex;
     }
     .amp-phone{
         top: 4px;
@@ -227,37 +227,37 @@ h1, h2, h3, h4, h5, h6 {
 /****
 * Comments
 *****/
-	.comments_list ul{
-	    margin:0;
-	    padding:0
-	}
-	.comments_list ul.children{
-	    padding-bottom:10px;
-		margin-left: 4%;
-		width: 96%;
-	}
-	.comments_list ul li p{
+  .comments_list ul{
+      margin:0;
+      padding:0;
+  }
+  .comments_list ul.children{
+      padding-bottom:10px;
+    margin-left: 4%;
+    width: 96%;
+  }
+  .comments_list ul li p{
         margin: 0;
         font-size: 14px;
         clear: both;
         padding-top: 5px;
-	}
+  }
     .comments_list ul li .says{
         margin-right: 4px;
     }
-	.comments_list ul li .comment-body{
-	    padding: 10px 0px 15px 0px;
-	}
-	.comments_list li li{
-	    margin: 20px 20px 10px 20px;
-	    background: #e2e2e2;
-	    box-shadow: none;
-	    border: 1px solid #7e8aa2;
-	}
-	.comments_list li li li{
-	    margin:20px 20px 10px 20px
-	}
-	.comment-author{ float:left }
+  .comments_list ul li .comment-body{
+      padding: 10px 0px 15px 0px;
+  }
+  .comments_list li li{
+      margin: 20px 20px 10px 20px;
+      background: #e2e2e2;
+      box-shadow: none;
+      border: 1px solid #7e8aa2;
+  }
+  .comments_list li li li{
+      margin:20px 20px 10px 20px
+  }
+  .comment-author{ float:left }
 
 
 /****
@@ -270,14 +270,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 
-/****
-* RTL Styles
-*****/
-    <?php  if( is_rtl() ) {?> <?php } ?>
 
 /****
 * Custom CSS
 *****/
     <?php echo $redux_builder_amp['css_editor']; ?>
 
-    <?php } ?>
