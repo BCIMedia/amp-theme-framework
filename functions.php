@@ -1,4 +1,4 @@
-<?php 
+<?php
 // Loading the Components
 //Search
 add_amp_theme_support('AMP-search');
@@ -29,4 +29,4 @@ add_amp_theme_support('AMP-related-posts');
 // Post Pagination
 add_amp_theme_support('AMP-post-pagination');
 
-amp_font('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600|Source+Sans+Pro:400,700');
+amp_font('https://use.typekit.net/loe4qcv.css');

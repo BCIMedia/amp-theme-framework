@@ -7,7 +7,7 @@ Version: 1.0
 Author: AMPforWP Team
 Author URI: http://ampforwp.com/amp-theme-framework
 License: GPL2
-AMP: BCI Theme Framework
+AMP: BCI Amp Theme
 */
 
 // Exit if accessed directly.
