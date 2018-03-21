@@ -7,11 +7,6 @@
 
         <div class="right">
             <?php amp_call_now(); ?>
-            <?php amp_social([
-                'twitter' => 'https://twitter.com/ampforwp',
-                'facebook' => 'https://facebook.com/ampforwp'
-            ]);?>
-            <?php amp_sidebar(['action'=>'open-button']); ?>
         </div>
 
         <div class="clearfix"></div>
