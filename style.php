@@ -147,8 +147,12 @@ h1, h2, h3, h4, h5, h6 {
 *****/
 .amp-logo {
     width:190px;
-    height:36px;
+    height:86px;
 }
+    .header {
+        background: #263248;
+        padding: .6666665rem;
+    }
     .header h1{
         font-size: 1.5em;
     }
@@ -217,6 +221,9 @@ h1, h2, h3, h4, h5, h6 {
         line-height: 1.3;
         margin-bottom: 5px;
     }
+    .amp-related-posts ul li .related_link .amp-author {
+        display: none !important;
+    }
     .amp-related-posts amp-img{
         float: left;
         width: 100px;
@@ -269,10 +276,11 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
 
-
+    .sticky_social {
+      text-align: center;
+    }
 
 /****
 * Custom CSS
 *****/
     <?php echo $redux_builder_amp['css_editor']; ?>
-
